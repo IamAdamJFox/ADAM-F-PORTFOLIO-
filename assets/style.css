@@ -95,7 +95,7 @@ p {
     margin: 0px 10px;
 }
 
-.work {
+.item {
     display: flex;
     justify-content: center;
     align-content: center;
@@ -106,7 +106,7 @@ p {
     padding: 10px;
 }
 
-.work-item {
+.Item2 {
     display: flex;
     position: relative;
     margin: 10px;
@@ -115,7 +115,7 @@ p {
     min-height: 350px;
 }
 
-.work-item h4 {
+.Item2 h4 {
     position: absolute;
     font-size: 30px;
     padding: 5px 5px 20px 35px;
@@ -124,7 +124,7 @@ p {
     background-color: aquamarine;
 }
 
-.work-item h5 {
+.Item2 h5 {
     position: absolute;
     bottom: 20px;
     padding: 5px 5px 8px 35px;
@@ -145,31 +145,31 @@ p {
 }
 
 .surf {
-    background-image: url("../image/surf.jpg");
+    background-image: url("./image/surf.jpg");
 }
 
 .led {
-    background-image: url("../image/led.jpg");
+    background-image: url("./image/led.jpg");
 }
 
 .calc {
-    background-image: url("../image/calc.jpg");
+    background-image: url("./image/calc.jpg");
 }
 
 .pastel {
-    background-image: url("../image/pastel.jpg");
+    background-image: url("./image/pastel.jpg");
 }
 
 .run {
-    background-image: url("../image/run.jpg");
+    background-image: url("./image/run.jpg");
 }
 
-.work a {
+.Item a {
     border-bottom: none;
     padding: 0;
 }
 
-.work-item:hover {
+.Item:hover {
     background-blend-mode: normal;
 }
 
