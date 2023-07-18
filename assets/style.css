@@ -104,12 +104,17 @@ p {
     padding: 10px;
 }
 
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
 .item-1 {
     display: flex;
     position: relative;
     margin: 10px;
     flex: 0 0 30%;
-    min-width: 350px;
+    max-width: 100%;
     min-height: 350px;
 }
 
@@ -118,7 +123,7 @@ p {
     font-size: 30px;
     padding: 5px 5px 20px 35px;
     bottom: 20px;
-    left: 0;
+
     background-color: aquamarine;
 }
 
@@ -129,7 +134,7 @@ p {
     position: relative;
     margin: 10px;
     flex: 0 0 30%;
-    min-width: 350px;
+    max-width: 100%;
     min-height: 350px;
 }
 
@@ -145,7 +150,14 @@ p {
     background-color: aquamarine;
 }
 
-.item h5 {
+.item-1 h5 {
+    position: absolute;
+    bottom: 20px;
+    padding: 5px 5px 8px 35px;
+    font-size: 10px;
+}
+
+.item-2 h5 {
     position: absolute;
     bottom: 20px;
     padding: 5px 5px 8px 35px;
@@ -205,9 +217,9 @@ p {
 
 .footer h3 {
     flex: 0 0 20%;
-    padding-right: 10px;
+    padding-right: 9px;
     text-align: end;
-    font-size: 53px;
+    font-size: 40px;
     border-right: 4px solid;
     border-color: black;
     color: lightblue;
