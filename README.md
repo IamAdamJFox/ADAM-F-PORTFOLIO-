@@ -2,7 +2,7 @@
 
 This is is my portfolio
 
-This will be added to as i develop into a developer
+This will be added to as I develop into a developer
 
 It was developed with css and html
 
